@@ -1,6 +1,15 @@
 inherit_gem:
   rubocop-shopify: rubocop.yml
 
-Layout/LineLength:
+AllCops:
+  SuggestExtensions: false
   Exclude:
-    - "/**/bin/bundle"
+    - "/**/bin/*"
+    - "/**/config/**/*"
+    - "/**/db/**/*"
+    - "/**/Rakefile"
+    - "/**/config.ru"
+
+Style/MethodCallWithArgsParentheses:
+  Exclude:
+    - "/**/spec/**/*"
