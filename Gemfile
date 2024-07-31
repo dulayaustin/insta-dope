@@ -20,6 +20,7 @@ gem "sprockets-rails"
 gem "stimulus-rails"
 gem "turbo-rails"
 gem "tzinfo-data", platforms: [:windows, :jruby]
+gem "inline_svg"
 
 group :development, :test do
   gem "debug", platforms: [:mri, :windows]
