@@ -33,7 +33,7 @@
             <div class="flex items-center gap-x-4 lg:gap-x-6">
               <!-- Profile dropdown -->
               <% if user_signed_in? %>
-                <%= render "devise/shared/profile_dropdown" %>
+                <%= render "devise/shared/user_menu" %>
               <% else %>
                 <%= link_to "Sign In",
                 new_user_session_path,
