@@ -21,6 +21,7 @@ gem "stimulus-rails"
 gem "turbo-rails"
 gem "tzinfo-data", platforms: [:windows, :jruby]
 gem "inline_svg"
+gem "view_component"
 
 group :development, :test do
   gem "debug", platforms: [:mri, :windows]

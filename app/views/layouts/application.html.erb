@@ -13,6 +13,7 @@
   </head>
 
   <body class="h-full">
+    <%= turbo_frame_tag "modal" %>
     <div>
       <% if user_signed_in? %>
         <%= render "sidebar/sidebar" %>
